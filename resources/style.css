@@ -82,12 +82,14 @@ section {
 }
 
 
+
+
 /* Table */
 
 table {
   left: 10%;
   margin: 0 auto;
-  width: 80%;
+  width: 65%;
   background-color: #FFF;
   border-collapse: collapse;
 }
@@ -124,6 +126,7 @@ tfoot td {
 }
 
 
+
 .table-left {
   text-align: left;
   font-weight: 600;
@@ -131,11 +134,45 @@ tfoot td {
   font-size: 0.9em;
 }
 
+.group-name {
+  width: 10%
+}
+
 p {
   padding: 30px;
   margin: 0 auto;
-  width: 80%;
+  width: 60%;
   color: grey;
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+
+  table {
+    width: 90%;
+    font-size: 0.85em;
+  }
+
+  thead th {
+ 
+  font-size: 1em;
+  letter-spacing: 1.5px;
+ 
+}
+  p {
+  font-size: 0.8em;
+  width: 80%;
+  padding: 15px;
+}
+  section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  h1 {
+    font-size: 1.5em;
+  }
+
 }
 /* Footer */
 
